@@ -13,6 +13,8 @@ public class GraphHandler
 	public static void parseGraphInput(String filename, Graph G)
 	{
 		generateVertices(filename, G);
+		computeEdges(filename, G);
+		G.printMatrix(G.vertexProximityMatrix);
 	}
 	
 	public static void generateVertices(String filename, Graph G)
@@ -66,7 +68,10 @@ public class GraphHandler
 	public static void computeEdges(String filename, Graph G)
 	{
 		G.vertexProximityMatrix = new int[G.vertices.size()][G.vertices.size()];
-		Arrays.fill(G.vertexProximityMatrix, 0);
+		for(int i = 0; i < G.vertices.size(); i++)
+		{
+			Arrays.fill(G.vertexProximityMatrix[i], 0);
+		}
 		FileReader file = null;		  
 		  try {
 		    file = new FileReader(filename);
