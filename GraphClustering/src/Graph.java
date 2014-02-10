@@ -39,17 +39,23 @@ public class Graph
 		}
 	}
 	
-	public void NewmanCluster(int iterations)
+	public void NewmanCluster(int finalNum)
 	{
 		clusterIndices = new int[vertices.length];
 		for(int i = 0; i < vertices.length; i++) clusterIndices[i] = i;
 		
-		for(int j = 0; j < iterations; j++)
+		for(int j = 0; j < vertices.length - finalNum; j++)
 		{
 			Point p = findMax(vertexProximityMatrix);
+			if (p.x == -1 || p.y == -1) break;
 			System.out.println("merging " + p.x + " and " + p.y);
 			mergeClusters(p.x, p.y);
 			//printMatrix(vertexProximityMatrix);
+		}
+		System.out.println("Cluster Indices: ");
+		for(int i = 0; i < clusterIndices.length; i++)
+		{
+			System.out.print(clusterIndices[i] + " ");
 		}
 	}
 	

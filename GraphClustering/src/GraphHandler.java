@@ -12,7 +12,7 @@ public class GraphHandler
 			System.setOut(p);
 			Graph G = new Graph();
 			parseGraphInput("./album-artist-genre.txt", G);
-			G.NewmanCluster(40);
+			G.NewmanCluster(1000);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
