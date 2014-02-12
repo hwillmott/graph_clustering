@@ -1,4 +1,4 @@
 
 public enum VertexType {
-	ARTIST, GENRE
+	ARTIST, GENRE, RELEASEDATE, AWARD
 }

@@ -8,7 +8,7 @@ import urllib
 
 api_key = "AIzaSyDQbIuXIm0TZVRS1yrd4lNwZvSRDLbg-_c"
 service_url = 'https://www.googleapis.com/freebase/v1/mqlread'
-query = [{'id': None, 'name': None, 'type': '/music/album', 'artist': [], 'genre': []}]
+query = [{'id': None, 'name': None, 'type': '/music/album', 'artist': [], 'genre': [], "/music/album/release_date": [], "ns0:type": []}]
 params = {
         'query': json.dumps(query),
         'key': api_key,
@@ -19,7 +19,7 @@ cursor = ''
 url = service_url + '?' + urllib.urlencode(params) + '&cursor'
 response = json.loads(urllib.urlopen(url).read())
 cursor = response['cursor']
-datafile = open('rawdata.txt', 'w')
+datafile = open('newrawdata.txt', 'w')
 
 while(cursor):
     print response
@@ -34,6 +34,13 @@ while(cursor):
             str_list.append('*')
             for genre in result['genre']:
                 str_list.append(',' + genre)
+            str_list.append('*')
+            for date in result['/music/album/release_date']:
+                str_list.append(date + ",");
+            str_list.append('*')
+            for letype in result['ns0:type']:
+                if "award" in letype:    
+                    str_list.append(letype + ",");
             str_list.append('\n')
             line = ''.join(str_list)
             datafile.write(line)
