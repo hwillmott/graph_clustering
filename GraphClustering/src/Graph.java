@@ -117,13 +117,22 @@ public class Graph
 	public void printClusterStats(int clusterIndex)
 	{
 		System.out.println("Cluster " + clusterIndex + "------------------------------------------xxxxx");
+		int numArtists = 0;
+		int numGenres = 0;
+		int size = 0;
 		for(int i = 0; i < clusterIndices.length; i++)
 		{
 			if(clusterIndices[i] == clusterIndex)
 			{
 				System.out.println(vertices[i].name + " " + vertices[i].type);
+				if(vertices[i].type == VertexType.ARTIST) numArtists++;
+				else if(vertices[i].type == VertexType.GENRE) numGenres++;
+				size++;
 			}
 		}
+		System.out.println("Cluster size: " + size);
+		System.out.println("Number of artists: " + numArtists);
+		System.out.println("Number of genres: " + numGenres);
 	}
 	
 	public void printClusters(int minClusterSize)
@@ -133,21 +142,24 @@ public class Graph
 		Arrays.sort(indices);
 		int currentIndex = indices[0];
 		int currentIndexCount = 0;
+		int numClusters = 0;
 		for(int i = 0; i < indices.length; i++)
 		{
 			if (currentIndex != indices[i]) // cluster change
 			{
-				if(currentIndexCount >= minClusterSize); // was the previous cluster big enough?
+				if(currentIndexCount >= minClusterSize) // was the previous cluster big enough?
 				{
 					printClusterStats(currentIndex); // print the cluster
 				}
 				currentIndexCount = 0;
 				currentIndex = indices[i];
+				numClusters++;
 			}
 			else
 			{
 				currentIndexCount++;
 			}
 		}
+		System.out.println("Number of clusters: " + numClusters);
 	}
 }

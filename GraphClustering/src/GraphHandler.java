@@ -15,6 +15,11 @@ public class GraphHandler
 			Graph G = new Graph();
 			parseGraphInput("./newrawdata.txt", G, true);
 			G.maxCluster(1000);
+			PrintStream p2 = new PrintStream("output.txt");
+			System.setOut(p2);
+			G = new Graph();
+			parseGraphInput("./album-artist-genre.txt", G, true);
+			G.maxCluster(1000);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
@@ -106,7 +111,6 @@ public class GraphHandler
 				genres = sections[2].split(",");
 				addEdges(artists, artists, G);
 				addEdges(artists, genres, G);
-				addEdges(genres, genres, G);
 				if(moreProperties)
 				{
 					if(sections.length >= 4) 
