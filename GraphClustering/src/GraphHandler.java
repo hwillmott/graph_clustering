@@ -2,6 +2,8 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Hashtable;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class GraphHandler 
 {
@@ -11,29 +13,29 @@ public class GraphHandler
 			PrintStream p = new PrintStream("output.txt");
 			System.setOut(p);
 			Graph G = new Graph();
-			parseGraphInput("./album-artist-genre.txt", G);
+			parseGraphInput("./album-artist-genre.txt", G, false);
 			G.maxCluster(1000);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
 	}
 
-	public static void parseGraphInput(String filename, Graph G)
+	public static void parseGraphInput(String filename, Graph G, boolean moreProperties)
 	{
-		generateVertices(filename, G);
-		computeEdges(filename, G);
+		generateVertices(filename, G, moreProperties);
+		computeEdges(filename, G, moreProperties);
 		//G.printMatrix(G.vertexProximityMatrix);
 		System.out.println("vertices: " + G.n + " edges: " + G.m);
 	}
 
-	public static void generateVertices(String filename, Graph G)
+	public static void generateVertices(String filename, Graph G, boolean moreProperties)
 	{
 		FileReader file = null;		  
 		try {
 			file = new FileReader(filename);
 			BufferedReader reader = new BufferedReader(file);
 			String line = "";
-			String[] sections,artists,genres;
+			String[] sections,artists,genres,releasedates,awards;
 			ArrayList<Vertex> vertices = new ArrayList<Vertex>();
 			Hashtable<String, Integer> hash = new Hashtable<String, Integer>();
 			while ((line = reader.readLine()) != null)
@@ -63,6 +65,38 @@ public class GraphHandler
 						System.out.println("Adding genre: " + genres[j]);
 					}
 				}
+				if(moreProperties)
+				{
+					releasedates = sections[3].split(",");
+					awards = sections[4].split(",");
+					String s = "*/d{4}*";
+					Pattern p = Pattern.compile(s);
+					Matcher m;
+					for(int i = 0; i < releasedates.length; i++)
+					{
+						m = p.matcher(releasedates[i]);
+						if(m.find())
+						{
+							if(!hash.containsKey(m.group(1)))
+							{
+								Vertex v = new Vertex(m.group(1), VertexType.RELEASEDATE);
+								vertices.add(v);
+								hash.put(m.group(1), 1);
+								System.out.println("Adding release date: " + m.group(1));
+							}
+						}
+					}
+					for(int i = 0; i < awards.length; i++)
+					{
+						if(!hash.containsKey(awards[i]) && awards[i].length() != 0)
+						{
+							Vertex v = new Vertex(awards[i], VertexType.AWARD);
+							vertices.add(v);
+							hash.put(awards[i], 1);
+							System.out.println("Adding award: "+ awards[i]);
+						}
+					}
+				}
 			}
 			G.vertices = vertices.toArray(new Vertex[vertices.size()]);
 			G.n = vertices.size();
@@ -78,7 +112,7 @@ public class GraphHandler
 		}
 	}
 
-	public static void computeEdges(String filename, Graph G)
+	public static void computeEdges(String filename, Graph G, boolean moreProperties)
 	{
 		G.VPM = new int[G.vertices.length][G.vertices.length];
 		for(int i = 0; i < G.vertices.length; i++)
