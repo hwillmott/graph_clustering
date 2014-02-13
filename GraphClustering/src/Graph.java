@@ -50,7 +50,11 @@ public class Graph
 		for(int j = 0; j < vertices.length - finalNum; j++)
 		{
 			Point p = findMax(VPM);
-			if (p == null) break;
+			if (p == null) 
+			{
+				System.out.println("No more merges available after " + j + " merges");
+				break;
+			}
 			System.out.println("merging " + p.x + " and " + p.y);
 			mergeClusters(p.x, p.y);
 			//printMatrix(vertexProximityMatrix);
@@ -60,6 +64,7 @@ public class Graph
 		{
 			System.out.print(clusterIndices[i] + " ");
 		}
+		printClusters(20);
 	}
 	
 	public Point findMax(int[][] array)
@@ -143,18 +148,50 @@ public class Graph
 		}
 	}
 	
-	public void printClusterStats(int minClusterSize)
+	public void printClusterStats(int clusterIndex)
+	{
+		System.out.println("Cluster " + clusterIndex + "------------------------------------------xxxxx");
+		for(int i = 0; i < clusterIndices.length; i++)
+		{
+			if(clusterIndices[i] == clusterIndex)
+			{
+				System.out.print(vertices[i].name);
+				switch (vertices[i].type)
+				{
+					case ARTIST: System.out.println(" (artist) ");
+						break;
+					case GENRE: System.out.println(" (genre) ");
+						break;
+					case RELEASEDATE: System.out.println(" (release date) ");
+						break;
+					default: System.out.println(" (award) ");
+						break;
+				}
+			}
+		}
+	}
+	
+	public void printClusters(int minClusterSize)
 	{
 		int[] indices = new int[clusterIndices.length];
-		System.arraycopy(clusterIndices, 0, indices, 0, clusterIndices.length);
+		System.arraycopy(clusterIndices, 0, indices, 0, clusterIndices.length); // make a temporary array of indices and sort
 		Arrays.sort(indices);
 		int currentIndex = indices[0];
 		int currentIndexCount = 0;
 		for(int i = 0; i < indices.length; i++)
 		{
-			if (currentIndex != indices[i])
+			if (currentIndex != indices[i]) // cluster change
 			{
-				if(currentIndexCount >= minClusterSize);
+				if(currentIndexCount >= minClusterSize); // was the previous cluster big enough?
+				{
+					printClusterStats(currentIndex); // print the cluster
+				}
+				currentIndexCount = 0;
+				currentIndex = indices[i];
+			}
+			else
+			{
+				currentIndexCount++;
 			}
 		}
 	}
