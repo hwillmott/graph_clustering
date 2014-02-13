@@ -97,40 +97,6 @@ public class Graph
 		int largest = Math.max(index1, index2);
 		int newClusterIndex = clusterIndices[smallest];
 		int oldClusterIndex = clusterIndices[largest];
-		/* update cluster array and the proximity matrix
-		for(int i = 0; i < clusterIndices.length; i++)
-		{
-			if (clusterIndices[i] == oldClusterIndex)
-			{
-				clusterIndices[i] = newClusterIndex; // update cluster number
-				if(i == largest) // if the column isn't already nullified
-				{
-					for(int j = 0; j < VPM[i].length; j++) //traverse column and add values to final cluster column
-					{
-						if((j != smallest) && (VPM[i][j] != -1))
-						{
-							VPM[smallest][j] += VPM[largest][j]; //add connections
-						}
-					}
-				}
-				for(int j = 0; j < VPM[i].length; j++)
-				{
-					// take the maximum between the columns
-					if(VPM[newClusterIndex][j] != -1 && VPM[i][j] != -1)
-					{
-						VPM[newClusterIndex][j] = VPM[j][newClusterIndex] = VPM[newClusterIndex][j] + VPM[i][j];
-					}
-					else if(VPM[newClusterIndex][j] != -1 && VPM[i][j] == -1)
-					VPM[newClusterIndex][j] = VPM[j][newClusterIndex] = Math.max(VPM[newClusterIndex][j], VPM[i][j]);
-					
-				}
-				for(int j = 0; j < VPM[i].length; j++)
-				{
-					VPM[i][j] = VPM[j][i] = -1;
-				}
-			}
-			
-		} */
 		for(int i = 0; i < clusterIndices.length; i++)
 		{
 			if (clusterIndices[i] == oldClusterIndex) clusterIndices[i] = newClusterIndex; // update cluster number
@@ -155,18 +121,7 @@ public class Graph
 		{
 			if(clusterIndices[i] == clusterIndex)
 			{
-				System.out.print(vertices[i].name);
-				switch (vertices[i].type)
-				{
-					case ARTIST: System.out.println(" (artist) ");
-						break;
-					case GENRE: System.out.println(" (genre) ");
-						break;
-					case RELEASEDATE: System.out.println(" (release date) ");
-						break;
-					default: System.out.println(" (award) ");
-						break;
-				}
+				System.out.println(vertices[i].name + " " + vertices[i].type);
 			}
 		}
 	}
