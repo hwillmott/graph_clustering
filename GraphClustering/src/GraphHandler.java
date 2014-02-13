@@ -12,7 +12,7 @@ public class GraphHandler
 			System.setOut(p);
 			Graph G = new Graph();
 			parseGraphInput("./album-artist-genre.txt", G);
-			G.NewmanCluster(1000);
+			G.maxCluster(1000);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
@@ -49,7 +49,6 @@ public class GraphHandler
 					{
 						Vertex v = new Vertex(artists[i], VertexType.ARTIST);
 						vertices.add(v);
-						G.n++;
 						hash.put(artists[i], 1);
 						System.out.println("Adding artist: " + artists[i]);
 					}
@@ -60,13 +59,13 @@ public class GraphHandler
 					{
 						Vertex v = new Vertex(genres[j], VertexType.GENRE);
 						vertices.add(v);
-						G.n++;
 						hash.put(genres[j], 1);
 						System.out.println("Adding genre: " + genres[j]);
 					}
 				}
 			}
 			G.vertices = vertices.toArray(new Vertex[vertices.size()]);
+			G.n = vertices.size();
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		} finally {
@@ -81,10 +80,10 @@ public class GraphHandler
 
 	public static void computeEdges(String filename, Graph G)
 	{
-		G.vertexProximityMatrix = new int[G.vertices.length][G.vertices.length];
+		G.VPM = new int[G.vertices.length][G.vertices.length];
 		for(int i = 0; i < G.vertices.length; i++)
 		{
-			Arrays.fill(G.vertexProximityMatrix[i], 0);
+			Arrays.fill(G.VPM[i], 0);
 		}
 		FileReader file = null;		  
 		try {
@@ -107,7 +106,7 @@ public class GraphHandler
 						{
 							int a = G.indexOf(artists[i]);
 							int g = G.indexOf(genres[j]);
-							G.vertexProximityMatrix[a][g] += 1;
+							G.VPM[a][g] += 1;
 							G.m++;
 						}
 					}
@@ -120,7 +119,7 @@ public class GraphHandler
 						{
 							int a = G.indexOf(artists[i]);
 							int g = G.indexOf(artists[j]);
-							G.vertexProximityMatrix[a][g] += 1;
+							G.VPM[a][g] += 1;
 							G.m++;
 						}
 					}
@@ -133,7 +132,7 @@ public class GraphHandler
 						{
 							int a = G.indexOf(genres[i]);
 							int g = G.indexOf(genres[j]);
-							G.vertexProximityMatrix[a][g] += 1;
+							G.VPM[a][g] += 1;
 							G.m++;
 						}
 					}

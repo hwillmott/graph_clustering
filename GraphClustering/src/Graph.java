@@ -1,12 +1,14 @@
 import java.awt.Point;
+import java.util.Arrays;
 
 
 public class Graph 
 {
 	public Vertex[] vertices;
 	public int[] clusterIndices;
-	public int[][] vertexProximityMatrix;
+	public int[][] VPM; //vertex proximity matrix
 	public int[][] clusterProximityMatrix;
+	public boolean[] deprecated;
 	public int m;
 	public int n;
 	
@@ -39,15 +41,16 @@ public class Graph
 		}
 	}
 	
-	public void NewmanCluster(int finalNum)
+	public void maxCluster(int finalNum)
 	{
 		clusterIndices = new int[vertices.length];
 		for(int i = 0; i < vertices.length; i++) clusterIndices[i] = i;
-		
+		deprecated = new boolean[clusterIndices.length];
+		Arrays.fill(deprecated, false);
 		for(int j = 0; j < vertices.length - finalNum; j++)
 		{
-			Point p = findMax(vertexProximityMatrix);
-			if (p.x == -1 || p.y == -1) break;
+			Point p = findMax(VPM);
+			if (p == null) break;
 			System.out.println("merging " + p.x + " and " + p.y);
 			mergeClusters(p.x, p.y);
 			//printMatrix(vertexProximityMatrix);
@@ -79,7 +82,7 @@ public class Graph
 				}
 			}
 		}
-		if (max == 0) return new Point(-1,-1);
+		if (max <= 0) return null;
 		return new Point(x, y);
 	}
 	
@@ -89,23 +92,70 @@ public class Graph
 		int largest = Math.max(index1, index2);
 		int newClusterIndex = clusterIndices[smallest];
 		int oldClusterIndex = clusterIndices[largest];
-		// update cluster array and the proximity matrix
+		/* update cluster array and the proximity matrix
 		for(int i = 0; i < clusterIndices.length; i++)
 		{
 			if (clusterIndices[i] == oldClusterIndex)
 			{
-				clusterIndices[i] = newClusterIndex;
-				for(int j = 0; j < vertexProximityMatrix[i].length; j++)
+				clusterIndices[i] = newClusterIndex; // update cluster number
+				if(i == largest) // if the column isn't already nullified
+				{
+					for(int j = 0; j < VPM[i].length; j++) //traverse column and add values to final cluster column
+					{
+						if((j != smallest) && (VPM[i][j] != -1))
+						{
+							VPM[smallest][j] += VPM[largest][j]; //add connections
+						}
+					}
+				}
+				for(int j = 0; j < VPM[i].length; j++)
 				{
 					// take the maximum between the columns
-					vertexProximityMatrix[newClusterIndex][j] = vertexProximityMatrix[j][newClusterIndex] = Math.max(vertexProximityMatrix[newClusterIndex][j], vertexProximityMatrix[i][j]);
+					if(VPM[newClusterIndex][j] != -1 && VPM[i][j] != -1)
+					{
+						VPM[newClusterIndex][j] = VPM[j][newClusterIndex] = VPM[newClusterIndex][j] + VPM[i][j];
+					}
+					else if(VPM[newClusterIndex][j] != -1 && VPM[i][j] == -1)
+					VPM[newClusterIndex][j] = VPM[j][newClusterIndex] = Math.max(VPM[newClusterIndex][j], VPM[i][j]);
+					
 				}
-				for(int j = 0; j < vertexProximityMatrix[i].length; j++)
+				for(int j = 0; j < VPM[i].length; j++)
 				{
-					vertexProximityMatrix[i][j] = vertexProximityMatrix[j][i] = -1;
+					VPM[i][j] = VPM[j][i] = -1;
 				}
 			}
 			
+		} */
+		for(int i = 0; i < clusterIndices.length; i++)
+		{
+			if (clusterIndices[i] == oldClusterIndex) clusterIndices[i] = newClusterIndex; // update cluster number
+		}
+		for(int j = 0; j < VPM[largest].length; j++)
+		{
+			if((j != smallest) && (VPM[largest][j] != -1))
+			{
+				VPM[smallest][j] += VPM[largest][j]; //add connections
+			}
+		}
+		for(int j = 0; j < VPM[largest].length; j++) 
+		{
+			VPM[largest][j] = VPM[j][largest] = -1; // nullify column, row
+		}
+	}
+	
+	public void printClusterStats(int minClusterSize)
+	{
+		int[] indices = new int[clusterIndices.length];
+		System.arraycopy(clusterIndices, 0, indices, 0, clusterIndices.length);
+		Arrays.sort(indices);
+		int currentIndex = indices[0];
+		int currentIndexCount = 0;
+		for(int i = 0; i < indices.length; i++)
+		{
+			if (currentIndex != indices[i])
+			{
+				if(currentIndexCount >= minClusterSize);
+			}
 		}
 	}
 }
