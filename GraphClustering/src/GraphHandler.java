@@ -10,29 +10,41 @@ public class GraphHandler
 	public static void main(String[] args)
 	{
 		try {
-			PrintStream p = new PrintStream("output2.txt");
-			System.setOut(p);
-			Graph G = new Graph();
-			parseGraphInput("./newrawdata.txt", G, true);
-			G.maxCluster(1000);
-			PrintStream p2 = new PrintStream("output.txt");
-			System.setOut(p2);
-			G = new Graph();
-			parseGraphInput("./album-artist-genre.txt", G, true);
-			G.maxCluster(1000);
+			Graph G;
+			PrintStream p;
+			
+			// simple data loop
+			for(int i = 1000; i <= 4000; i += 1000)
+			{
+				p = new PrintStream("simple_" + i + ".txt");
+				System.setOut(p);
+				G = new Graph();
+				parseGraphInput("./simpledata.txt", G);
+				G.maxCluster(i);
+			}
+			// rich data loop
+			for(int i = 1000; i <= 4000; i += 1000)
+			{
+				p = new PrintStream("rich_" + i + ".txt");
+				System.setOut(p);
+				G = new Graph();
+				parseGraphInput("./richdata.txt", G);
+				G.maxCluster(i);
+			}
+			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
 	}
 
-	public static void parseGraphInput(String filename, Graph G, boolean moreProperties)
+	public static void parseGraphInput(String filename, Graph G)
 	{
-		generateVertices(filename, G, moreProperties);
-		computeEdges(filename, G, moreProperties);
+		generateVertices(filename, G);
+		computeEdges(filename, G);
 		System.out.println("vertices: " + G.n + " edges: " + G.m);
 	}
 
-	public static void generateVertices(String filename, Graph G, boolean moreProperties)
+	public static void generateVertices(String filename, Graph G)
 	{
 		FileReader file = null;		  
 		try {
@@ -49,18 +61,15 @@ public class GraphHandler
 				genres = sections[2].split(",");
 				addVertices(artists, VertexType.ARTIST, vertices, hash);
 				addVertices(genres, VertexType.GENRE, vertices, hash);
-				if(moreProperties)
+				if(sections.length >= 4) 
 				{
-					if(sections.length >= 4) 
+					releasedates = sections[3].split(",");
+					String[] a = getYearsFromStrings(releasedates);
+					addVertices(a, VertexType.RELEASEDATE, vertices, hash);
+					if(sections.length >= 5) 
 					{
-						releasedates = sections[3].split(",");
-						String[] a = getYearsFromStrings(releasedates);
-						addVertices(a, VertexType.RELEASEDATE, vertices, hash);
-						if(sections.length >= 5) 
-						{
-							awards = sections[4].split(",");
-							addVertices(awards, VertexType.AWARD, vertices, hash);
-						}
+						awards = sections[4].split(",");
+						addVertices(awards, VertexType.AWARD, vertices, hash);
 					}
 				}
 			}
@@ -91,7 +100,7 @@ public class GraphHandler
 		}
 	}
 
-	public static void computeEdges(String filename, Graph G, boolean moreProperties)
+	public static void computeEdges(String filename, Graph G)
 	{
 		G.VPM = new int[G.vertices.length][G.vertices.length];
 		for(int i = 0; i < G.vertices.length; i++)
@@ -111,18 +120,15 @@ public class GraphHandler
 				genres = sections[2].split(",");
 				addEdges(artists, artists, G);
 				addEdges(artists, genres, G);
-				if(moreProperties)
+				if(sections.length >= 4) 
 				{
-					if(sections.length >= 4) 
+					releasedates = sections[3].split(",");
+					String[] a = getYearsFromStrings(releasedates);
+					addEdges(a, artists, G);
+					if(sections.length >= 5) 
 					{
-						releasedates = sections[3].split(",");
-						String[] a = getYearsFromStrings(releasedates);
-						addEdges(a, artists, G);
-						if(sections.length >= 5) 
-						{
-							awards = sections[4].split(",");
-							addEdges(awards, artists, G);
-						}
+						awards = sections[4].split(",");
+						addEdges(awards, artists, G);
 					}
 				}
 			}
