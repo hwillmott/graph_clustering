@@ -14,23 +14,36 @@ public class GraphHandler
 			PrintStream p;
 			
 			// simple data loop
-			for(int i = 1000; i <= 4000; i += 1000)
+			/*
+			for(int i = 5000; i <= 6000; i += 1000)
 			{
-				p = new PrintStream("simple_" + i + ".txt");
+				p = new PrintStream("simplemin_" + i + ".txt");
 				System.setOut(p);
 				G = new Graph();
 				parseGraphInput("./simpledata.txt", G);
-				G.maxCluster(i);
+				G.minCluster(i);
 			}
+			*/
 			// rich data loop
-			for(int i = 1000; i <= 4000; i += 1000)
+			for(int i = 3000; i <= 6000; i += 1000)
 			{
-				p = new PrintStream("rich_" + i + ".txt");
+				p = new PrintStream("richmin_" + i + ".txt");
+				System.setOut(p);
+				G = new Graph();
+				parseGraphInput("./richdata.txt", G);
+				G.minCluster(i);
+			}
+			/*
+			for(int i = 1000; i <= 6000; i += 1000)
+			{
+				p = new PrintStream("middle_" + i + ".txt");
 				System.setOut(p);
 				G = new Graph();
 				parseGraphInput("./richdata.txt", G);
 				G.maxCluster(i);
 			}
+			*/
+			
 			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

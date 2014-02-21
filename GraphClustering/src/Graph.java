@@ -58,6 +58,47 @@ public class Graph
 		printClusters(20);
 	}
 	
+	public void minCluster(int iterations)
+	{
+		clusterIndices = new int[vertices.length];
+		for(int i = 0; i < vertices.length; i++) clusterIndices[i] = i;
+		for(int j = 0; j < iterations; j++)
+		{
+			Point p = findMin(VPM);
+			if (p == null) 
+			{
+				System.out.println("No more merges available after " + j + " merges");
+				break;
+			}
+			mergeClusters(p.x, p.y);
+		}
+		printClusters(20);
+	}
+	
+	private Point findMin(int[][] array) 
+	{
+		int x, y, min;
+		x = y = min = Integer.MAX_VALUE;
+		
+		for(int i = 0; i < array.length; i++)
+		{
+			for(int j = 0; j < array[0].length; j++)
+			{
+				if(i != j)
+				{
+					if (min > array[i][j] && array[i][j] > 0)
+					{
+						min = array[i][j];
+						x = i;
+						y = j;
+					}
+				}
+			}
+		}
+		if (min == Integer.MAX_VALUE) return null;
+		return new Point(x, y);
+	}
+
 	public Point findMax(int[][] array)
 	{
 		int x, y, max;
