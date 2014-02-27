@@ -11,10 +11,12 @@ public class Graph
 	public boolean[] deprecated;
 	public int m;
 	public int n;
+	public int genres;
+	public int artists;
 	
 	public Graph()
 	{
-		m = n = 0;
+		m = n = genres = artists = 0;
 	}
 	
 	public int indexOf(String name)
@@ -196,5 +198,8 @@ public class Graph
 		System.out.println("Number of clusters with over " + minClusterSize + " vertices: " + numLargeClusters);
 		System.out.println("Largest cluster: " + largestClusterSize + " vertices");
 		System.out.println("Number of unclustered vertices: " + numLoneVertices);
+		System.out.println("Number of artist vertices: " + artists);
+		System.out.println("Number of genre vertices: " + genres);
+		
 	}
 }
