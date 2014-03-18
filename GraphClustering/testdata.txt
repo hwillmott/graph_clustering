@@ -1,0 +1,12 @@
+Human After All*Daft Punk,*Electronic,*1990,*
+Discovery*Daft Punk,*Electronic,*1991,*
+The Very Best Of*Michael Jackson,*Pop,*1980,*/award/award_winning_work,/award/award_nominated_work,
+The Greatest Hits*Jimi Hendrix,*Blues,Rock,*1970*
+The Very Best Of The Doors*The Doors,*Rock,*1980*
+Rumours*Fleetwood Mac,*Rock,*1990*/award/award_winning_work,/award/award_nominated_work,
+Puccini: Turandot*Giacomo Puccini,*Classical,*2000*
+The Very Best Of Chopin*Chopin,*Classical,*2009*
+Reasonable Doubt*Jay-Z,*Hip Hop,Rap,*1996*
+Unfinished Business*Jay-Z,*Hip Hop,Rap,*1999*
+Laugh Now, Cry Later*Ice Cube,*Hip Hop,Rap,*1999*
+The Documentary*The Game,*Rap,*2005*
