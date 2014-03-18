@@ -1,0 +1,51 @@
+vertices: 5407 edges: 31357
+No more merges available after 5295 merges
+Printing cluster: 34------------------XXXXX
+Paul Simon ARTIST
+1965 RELEASEDATE
+Bossa nova GENRE
+Chuck Berry ARTIST
+Marvin Gaye ARTIST
+Dexter Gordon ARTIST
+Dionne Warwick ARTIST
+Patti Page ARTIST
+Quincy Jones and his Orchestra ARTIST
+Merseybeat GENRE
+Rahsaan Roland Kirk ARTIST
+Cornelis Vreeswijk ARTIST
+Fred Åkerström ARTIST
+Ann-Louise Hanson ARTIST
+Sérgio Mendes ARTIST
+Wynton Kelly ARTIST
+Charles Lloyd ARTIST
+Booker Ervin ARTIST
+Manfred Mann ARTIST
+Printing cluster: 355------------------XXXXX
+1957 RELEASEDATE
+Sonny Rollins ARTIST
+Thelonious Monk ARTIST
+T. S. Monk ARTIST
+Peck Morrison ARTIST
+Dizzy Gillespie ARTIST
+Dinah Washington ARTIST
+Printing cluster: 612------------------XXXXX
+Stan Kenton ARTIST
+1959 RELEASEDATE
+ Sr. ARTIST
+Arnett Cobb ARTIST
+Babatunde Olatunji ARTIST
+Afrobeat GENRE
+Highlife GENRE
+Dinah Shore ARTIST
+Betty Johnson ARTIST
+Mal Waldron ARTIST
+Jean Shepard ARTIST
+Bakersfield sound GENRE
+Judy Garland ARTIST
+Paddy Roberts ARTIST
+Louis Armstrong ARTIST
+Philly Joe Jones ARTIST
+Number of clusters: 111
+Largest cluster: 5051 vertices
+Number of artist vertices: 4735
+Number of genre vertices: 596

@@ -1,0 +1,41 @@
+vertices: 28 edges: 44
+No more merges available after 21 merges
+Printing cluster: 0------------------XXXXX
+Daft Punk ARTIST
+Electronic GENRE
+1990 RELEASEDATE
+1991 RELEASEDATE
+Rock GENRE
+Fleetwood Mac ARTIST
+Printing cluster: 4------------------XXXXX
+Michael Jackson ARTIST
+Pop GENRE
+1980 RELEASEDATE
+/award/award_winning_work AWARD
+/award/award_nominated_work AWARD
+The Doors ARTIST
+Printing cluster: 9------------------XXXXX
+Jimi Hendrix ARTIST
+Blues GENRE
+1970 RELEASEDATE
+Printing cluster: 15------------------XXXXX
+Giacomo Puccini ARTIST
+Classical GENRE
+2000 RELEASEDATE
+Printing cluster: 18------------------XXXXX
+Chopin ARTIST
+2009 RELEASEDATE
+Printing cluster: 20------------------XXXXX
+Jay-Z ARTIST
+Hip Hop GENRE
+Rap GENRE
+1996 RELEASEDATE
+1999 RELEASEDATE
+Ice Cube ARTIST
+The Game ARTIST
+Number of clusters: 6
+Number of clusters with over 20 vertices: 0
+Largest cluster: 7 vertices
+Number of unclustered vertices: 0
+Number of artist vertices: 10
+Number of genre vertices: 7

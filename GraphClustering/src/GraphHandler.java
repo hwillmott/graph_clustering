@@ -16,13 +16,36 @@ public class GraphHandler
 			boolean[] propertiesB = {true, true, true, false};
 			boolean[] propertiesC = {true, true, true, true};
 			
-			// max cluster
-			p = new PrintStream("max_A.txt");
+			p = new PrintStream("ideal_20.txt");
 			System.setOut(p);
 			G = new Graph();
-			parseGraphInput("./richdata.txt", G, propertiesA);
-			G.maxCluster(6000);
-
+			parseGraphInput("./richdata.txt", G, propertiesC);
+			G.idealCluster(6000,20);
+			
+			p = new PrintStream("ideal_30.txt");
+			System.setOut(p);
+			G = new Graph();
+			parseGraphInput("./richdata.txt", G, propertiesC);
+			G.idealCluster(6000,30);
+			
+			p = new PrintStream("ideal_50.txt");
+			System.setOut(p);
+			G = new Graph();
+			parseGraphInput("./richdata.txt", G, propertiesC);
+			G.idealCluster(6000,50);
+			
+			p = new PrintStream("ideal_75.txt");
+			System.setOut(p);
+			G = new Graph();
+			parseGraphInput("./richdata.txt", G, propertiesC);
+			G.idealCluster(6000,75);
+			
+			p = new PrintStream("ideal_100.txt");
+			System.setOut(p);
+			G = new Graph();
+			parseGraphInput("./richdata.txt", G, propertiesC);
+			G.idealCluster(6000,100);
+			/* max cluster
 			p = new PrintStream("max_B.txt");
 			System.setOut(p);
 			G = new Graph();
@@ -51,39 +74,20 @@ public class GraphHandler
 			System.setOut(p);
 			G = new Graph();
 			parseGraphInput("./richdata.txt", G, propertiesC);
-			G.minCluster(6000);
+			G.minCluster(6000); */
 			
-			/*
-			for(int i = 5000; i <= 6000; i += 1000)
-			{
-				p = new PrintStream("simplemin_" + i + ".txt");
-				System.setOut(p);
-				G = new Graph();
-				parseGraphInput("./simpledata.txt", G);
-				G.minCluster(i);
-			}
-			*/
-			/* rich data loop
-			for(int i = 3000; i <= 6000; i += 1000)
-			{ 
-			int i = 6000;
-				p = new PrintStream("test" + i + ".txt");
-				System.setOut(p);
-				G = new Graph();
-				parseGraphInput("./simpledata.txt", G);
-				G.minCluster(i);
-			/*
-			}
-			for(int i = 1000; i <= 6000; i += 1000)
-			{
-				p = new PrintStream("middle_" + i + ".txt");
-				System.setOut(p);
-				G = new Graph();
-				parseGraphInput("./richdata.txt", G);
-				G.maxCluster(i);
-			}
-			*/
+			/* test data 
+			p = new PrintStream("min_test.txt");
+			System.setOut(p);
+			G = new Graph();
+			parseGraphInput("./testdata.txt", G, propertiesC);
+			G.minCluster(100); 
 			
+			p = new PrintStream("max_test.txt");
+			System.setOut(p);
+			G = new Graph();
+			parseGraphInput("./testdata.txt", G, propertiesC);
+			G.maxCluster(100); */
 			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

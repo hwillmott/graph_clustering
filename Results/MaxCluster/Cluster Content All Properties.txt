@@ -1,0 +1,156 @@
+vertices: 5407 edges: 31357
+No more merges available after 5237 merges
+Printing cluster: 29------------------XXXXX
+1967 RELEASEDATE
+Moby Grape ARTIST
+The Rascals ARTIST
+Julie London ARTIST
+Timothy Leary ARTIST
+The Browns ARTIST
+Jake Thackray ARTIST
+Connie Smith ARTIST
+Nat Stuckey ARTIST
+The Fugs ARTIST
+Andy Williams ARTIST
+Sonny Stitt ARTIST
+Printing cluster: 34------------------XXXXX
+Paul Simon ARTIST
+1965 RELEASEDATE
+Chuck Berry ARTIST
+Marvin Gaye ARTIST
+Dexter Gordon ARTIST
+Dionne Warwick ARTIST
+Patti Page ARTIST
+Quincy Jones and his Orchestra ARTIST
+Rahsaan Roland Kirk ARTIST
+Cornelis Vreeswijk ARTIST
+Fred Åkerström ARTIST
+Ann-Louise Hanson ARTIST
+Sérgio Mendes ARTIST
+Wynton Kelly ARTIST
+Charles Lloyd ARTIST
+Booker Ervin ARTIST
+Manfred Mann ARTIST
+Printing cluster: 207------------------XXXXX
+Tom Cochrane ARTIST
+1974 RELEASEDATE
+Curtis Mayfield ARTIST
+Terry Gibbs ARTIST
+Ramsey Lewis ARTIST
+Commander Cody &amp; His Lost Planet Airmen ARTIST
+Wally ARTIST
+Refugee ARTIST
+Bryn Haworth ARTIST
+Spider John Koerner ARTIST
+Cilla Black ARTIST
+Blue Magic ARTIST
+Light music GENRE
+Andrew Hill ARTIST
+The Rabbis' Sons ARTIST
+Nigun GENRE
+Black Heat ARTIST
+Vesyolye Rebyata ARTIST
+Printing cluster: 209------------------XXXXX
+1962 RELEASEDATE
+Roy Orbison ARTIST
+Harry Belafonte ARTIST
+Judy Collins ARTIST
+The Shadows ARTIST
+Brenda Lee ARTIST
+The Ramsey Lewis Trio ARTIST
+Printing cluster: 218------------------XXXXX
+1964 RELEASEDATE
+Shirley and Squirrely ARTIST
+Eric Burdon &amp; the Animals ARTIST
+Ted Curson ARTIST
+Jorge Cafrune ARTIST
+Gil Evans ARTIST
+Bud Powell ARTIST
+Cathy Carr ARTIST
+Even Dozen Jug Band ARTIST
+Jug band GENRE
+Nancy Wilson ARTIST
+The Gil Evans Orchestra ARTIST
+Kenny Dorham ARTIST
+Jackie DeShannon ARTIST
+Bobby Timmons ARTIST
+Anne Briggs ARTIST
+Printing cluster: 374------------------XXXXX
+1963 RELEASEDATE
+Dave Van Ronk ARTIST
+Bill Henderson ARTIST
+The Folkswingers ARTIST
+New York Contemporary Five ARTIST
+Jon Hendricks ARTIST
+Printing cluster: 479------------------XXXXX
+Smothers Brothers ARTIST
+1966 RELEASEDATE
+The Seeds ARTIST
+Sky Saxon and the Seeds ARTIST
+Terry Knight &amp; The Pack ARTIST
+Don Cherry ARTIST
+Duke Pearson ARTIST
+The Sonics ARTIST
+Herman's Hermits ARTIST
+Herbie Mann ARTIST
+Shankar Jaikishan ARTIST
+Printing cluster: 500------------------XXXXX
+1960 RELEASEDATE
+Mel Tormé ARTIST
+Arnett Cobb ARTIST
+Della Reese ARTIST
+Ritchie Valens ARTIST
+Jack Kerouac ARTIST
+George Russell ARTIST
+Odetta ARTIST
+Johnny Griffin ARTIST
+Johnny Griffin Orchestra ARTIST
+Printing cluster: 612------------------XXXXX
+Stan Kenton ARTIST
+1959 RELEASEDATE
+Babatunde Olatunji ARTIST
+Afrobeat GENRE
+Highlife GENRE
+Dinah Shore ARTIST
+Betty Johnson ARTIST
+Jean Shepard ARTIST
+Bakersfield sound GENRE
+Judy Garland ARTIST
+Paddy Roberts ARTIST
+Louis Armstrong ARTIST
+Philly Joe Jones ARTIST
+Printing cluster: 777------------------XXXXX
+1968 RELEASEDATE
+Nancy Priddy ARTIST
+Dr. John ARTIST
+New Orleans rhythm and blues GENRE
+Dave Burrell ARTIST
+Tom Rush ARTIST
+Dottie West ARTIST
+Nashville sound GENRE
+The Vogues ARTIST
+The Easybeats ARTIST
+Ravi Shankar ARTIST
+Jazz Composer's Orchestra ARTIST
+Françoise Hardy ARTIST
+French popular music GENRE
+Ramblin' Jack Elliott ARTIST
+Sonny &amp; Cher ARTIST
+The Marvelettes ARTIST
+The Cryan' Shames ARTIST
+Printing cluster: 804------------------XXXXX
+1961 RELEASEDATE
+Lou Singer ARTIST
+Dottie Evans ARTIST
+Tom Glazer ARTIST
+Carmen McRae ARTIST
+Jimmy Forrest ARTIST
+Charlie Barnet ARTIST
+Billy May ARTIST
+The Out-Islanders ARTIST
+Jerry Lee Lewis ARTIST
+Johnny "Hammond" Smith ARTIST
+Number of clusters: 169
+Largest cluster: 1569 vertices
+Number of artist vertices: 4735
+Number of genre vertices: 596

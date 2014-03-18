@@ -1,0 +1,1308 @@
+vertices: 5407 edges: 31357
+No more merges available after 1829 merges
+Printing cluster: 0------------------XXXXX
+Cream ARTIST
+1972 RELEASEDATE
+Simon and Garfunkel ARTIST
+The Velvet Underground ARTIST
+Nico ARTIST
+Protopunk GENRE
+Experimental rock GENRE
+Dream pop GENRE
+Indie rock GENRE
+Lo-fi music GENRE
+Shoegazing GENRE
+The Kinks ARTIST
+Further Seems Forever ARTIST
+Christian rock GENRE
+Lou Reed ARTIST
+Starflyer 59 ARTIST
+Starflyer 2000 ARTIST
+Ronnie Foster ARTIST
+Half Japanese ARTIST
+The New Birth ARTIST
+Printing cluster: 1------------------XXXXX
+Blues-rock GENRE
+Hard rock GENRE
+Folk rock GENRE
+Rock music GENRE
+Blues GENRE
+Progressive rock GENRE
+Led Zeppelin ARTIST
+Heavy metal GENRE
+Art rock GENRE
+David Bowie ARTIST
+Pop rock GENRE
+Rush ARTIST
+Mike Oldfield ARTIST
+INXS ARTIST
+Gary Moore ARTIST
+B.B. King ARTIST
+Ronnie Wood ARTIST
+Bob Welch ARTIST
+Marty Balin ARTIST
+Phish ARTIST
+Printing cluster: 3------------------XXXXX
+Psychedelic rock GENRE
+Country rock GENRE
+The Doors ARTIST
+Acid rock GENRE
+Avant-garde music GENRE
+Grateful Dead ARTIST
+Space rock GENRE
+Pink Floyd ARTIST
+Jam band GENRE
+Blue Rodeo ARTIST
+Jefferson Airplane ARTIST
+Spirit ARTIST
+Hawkwind ARTIST
+Anekdoten ARTIST
+Blue Cheer ARTIST
+New Riders of the Purple Sage ARTIST
+Dungen ARTIST
+Progg GENRE
+Papa John Creach ARTIST
+Circus Devils ARTIST
+Printing cluster: 5------------------XXXXX
+Bob Dylan ARTIST
+/award/award_winning_work AWARD
+/award/award_nominated_work AWARD
+Folk music GENRE
+Baroque pop GENRE
+Tori Amos ARTIST
+Alternative rock GENRE
+Piano rock GENRE
+Rapcore GENRE
+Rap metal GENRE
+Linkin Park ARTIST
+Eminem ARTIST
+Jay-Z ARTIST
+Rap rock GENRE
+R.E.M. ARTIST
+Robbie Williams ARTIST
+Diana Krall ARTIST
+Ladysmith Black Mambazo ARTIST
+Isicathamiya GENRE
+Jimmy Sturr ARTIST
+Printing cluster: 8------------------XXXXX
+1975 RELEASEDATE
+Neoclassical metal GENRE
+Instrumental rock GENRE
+Jazz fusion GENRE
+Lee "Scratch" Perry &amp; The Upsetters ARTIST
+Reggae GENRE
+Dub GENRE
+The Rolling Stones ARTIST
+John Abercrombie ARTIST
+The Average White Band ARTIST
+Status Quo ARTIST
+Camel ARTIST
+Steve Vai ARTIST
+Alice Coltrane ARTIST
+Cultura Profética ARTIST
+Frank Gambale ARTIST
+Richie Kotzen ARTIST
+Allan Holdsworth ARTIST
+Vinnie Moore ARTIST
+Les Fradkin ARTIST
+Printing cluster: 12------------------XXXXX
+Americana GENRE
+Alternative country GENRE
+Ryan Adams ARTIST
+Soundtrack GENRE
+Cowboy Junkies ARTIST
+Avant-garde jazz GENRE
+Folk jazz GENRE
+Bill Frisell ARTIST
+Downtown music GENRE
+Modern Creative GENRE
+The David Grisman Quintet ARTIST
+David Grisman ARTIST
+Tony Rice ARTIST
+John Prine ARTIST
+Jackie Greene ARTIST
+Shankar-Ehsaan-Loy ARTIST
+A. R. Rahman ARTIST
+Yuvan Shankar Raja ARTIST
+Vishal-Shekhar ARTIST
+Vidyasagar ARTIST
+Printing cluster: 14------------------XXXXX
+Roots rock GENRE
+Country blues GENRE
+Dire Straits ARTIST
+Pub rock GENRE
+Rockabilly GENRE
+Tom Cochrane ARTIST
+1974 RELEASEDATE
+John Hiatt ARTIST
+Heartland rock GENRE
+John Mellencamp ARTIST
+Curtis Mayfield ARTIST
+Jefferson Starship ARTIST
+Grace Slick ARTIST
+Paul Kantner ARTIST
+Buffalo ARTIST
+Cannonball Adderley ARTIST
+Doc &amp; Merle Watson ARTIST
+Doc Watson ARTIST
+Merle Watson ARTIST
+Ry Cooder ARTIST
+Printing cluster: 17------------------XXXXX
+2001 RELEASEDATE
+The Damned ARTIST
+Ministry ARTIST
+Raven Oak ARTIST
+Ramones ARTIST
+Björk ARTIST
+Illbient GENRE
+Musique concrète GENRE
+Minimal techno GENRE
+Ethereal wave GENRE
+Glitch GENRE
+Twins ARTIST
+Industrial hip hop GENRE
+Neoclassical Dark Wave GENRE
+Cocteau Twins ARTIST
+Yann Tiersen ARTIST
+Dogwood ARTIST
+WeltenBrand ARTIST
+Mostly Autumn ARTIST
+Jo Stafford ARTIST
+Printing cluster: 18------------------XXXXX
+Neil Young ARTIST
+1977 RELEASEDATE
+Soft rock GENRE
+Leif Garrett ARTIST
+Teen pop GENRE
+Klaatu ARTIST
+Symphonic rock GENRE
+Dance-pop GENRE
+Emerson ARTIST
+ Lake &amp; Palmer ARTIST
+Supertramp ARTIST
+The Stills-Young Band ARTIST
+Play ARTIST
+Air Supply ARTIST
+Nu Virgos ARTIST
+David Allan Coe ARTIST
+Jennifer Rush ARTIST
+Pink Lady ARTIST
+Serj Tankian ARTIST
+Galija ARTIST
+Printing cluster: 21------------------XXXXX
+Metallica ARTIST
+Thrash metal GENRE
+Speed metal GENRE
+1984 RELEASEDATE
+Megadeth ARTIST
+Crossover thrash GENRE
+Madonna ARTIST
+Swing music GENRE
+Big band GENRE
+New jack swing GENRE
+Destruction ARTIST
+Art of Noise ARTIST
+Julie Brown ARTIST
+Menudo ARTIST
+Anthym ARTIST
+Sodom ARTIST
+Blackened thrash metal GENRE
+M.O.D. ARTIST
+Al B. Sure! ARTIST
+Tommy Dorsey ARTIST
+Printing cluster: 29------------------XXXXX
+1967 RELEASEDATE
+The Beatles ARTIST
+Concept album GENRE
+Ozzy Osbourne ARTIST
+Classic rock GENRE
+1988 RELEASEDATE
+Yngwie Malmsteen ARTIST
+Yngwie J. Malmsteen’s Rising Force ARTIST
+Post-grunge GENRE
+Foo Fighters ARTIST
+Rock and roll GENRE
+3 Doors Down ARTIST
+Chuck Berry ARTIST
+Toadies ARTIST
+Standard GENRE
+Elvis Presley ARTIST
+Axium ARTIST
+Eleanor McEvoy ARTIST
+Loud Machine ARTIST
+Andy Williams ARTIST
+Printing cluster: 32------------------XXXXX
+1969 RELEASEDATE
+Psychedelic music GENRE
+Free jazz GENRE
+Kool &amp; the Gang ARTIST
+Soul jazz GENRE
+Chick Corea ARTIST
+Herbie Hancock ARTIST
+Chick Corea Elektric Band ARTIST
+Three Dog Night ARTIST
+Lalo Schifrin ARTIST
+Peggy Lee ARTIST
+Wayne Shorter ARTIST
+Jerome Louis "J.J." Jackson ARTIST
+Charlie Rich ARTIST
+Omega ARTIST
+Loretta Lynn ARTIST
+Muddy Waters ARTIST
+Patrick Sky ARTIST
+Howlin' Wolf ARTIST
+Cecil Taylor ARTIST
+Printing cluster: 34------------------XXXXX
+Paul Simon ARTIST
+1965 RELEASEDATE
+Bobby Hutcherson ARTIST
+John Coltrane ARTIST
+Marvin Gaye ARTIST
+Dexter Gordon ARTIST
+Wes Montgomery ARTIST
+Dionne Warwick ARTIST
+John Coltrane Quartet ARTIST
+Eric Dolphy ARTIST
+Patti Page ARTIST
+Quincy Jones and his Orchestra ARTIST
+Modal jazz GENRE
+Joe Henderson ARTIST
+Archie Shepp ARTIST
+Rahsaan Roland Kirk ARTIST
+Cornelis Vreeswijk ARTIST
+Fred Åkerström ARTIST
+Ann-Louise Hanson ARTIST
+Sérgio Mendes ARTIST
+Printing cluster: 37------------------XXXXX
+1970 RELEASEDATE
+John Lennon ARTIST
+Black Sabbath ARTIST
+Spoken word GENRE
+Joan Baez ARTIST
+Kris Kristofferson ARTIST
+Dolly Parton ARTIST
+Porter Wagoner ARTIST
+Focus ARTIST
+Wizz Jones ARTIST
+Ricky Nelson ARTIST
+Christine McVie ARTIST
+Nic Jones ARTIST
+Rare Earth ARTIST
+Ernest Tubb ARTIST
+Honky-tonk GENRE
+Melvin Van Peebles ARTIST
+Jessi Colter ARTIST
+Dizzy Reece ARTIST
+Chicken Shack ARTIST
+Printing cluster: 38------------------XXXXX
+1971 RELEASEDATE
+ZZ Top ARTIST
+Southern rock GENRE
+Boogie rock GENRE
+King Felix ARTIST
+Laurel Halo ARTIST
+Tejano music GENRE
+Bonnie Raitt ARTIST
+Bernie Taupin ARTIST
+Latin pop GENRE
+Selena ARTIST
+Fifth Dimension ARTIST
+Barbra Streisand ARTIST
+Vocal music GENRE
+Ten Years After ARTIST
+Moby Grape ARTIST
+War ARTIST
+Eric Burdon ARTIST
+Centipede ARTIST
+Liza Minnelli ARTIST
+Printing cluster: 40------------------XXXXX
+1973 RELEASEDATE
+Jim Croce ARTIST
+Donovan ARTIST
+Gentle Giant ARTIST
+1000 Mexicans ARTIST
+Emitt Rhodes ARTIST
+Fleetwood Mac ARTIST
+Eddie Harris ARTIST
+Dave Holland Quartet ARTIST
+Dave Holland ARTIST
+Mylon LeFevre ARTIST
+Alvin Lee ARTIST
+The Incredible String Band ARTIST
+Ed Bogas ARTIST
+Sui Generis ARTIST
+Greenslade ARTIST
+Gene Clark ARTIST
+The Guess Who ARTIST
+Little Richard ARTIST
+Charles Mingus ARTIST
+Printing cluster: 41------------------XXXXX
+1976 RELEASEDATE
+Avant-garde GENRE
+Experimental music GENRE
+Y &amp; T ARTIST
+Trapeze ARTIST
+Frank Zappa ARTIST
+Comedy rock GENRE
+Rock opera GENRE
+The Trammps ARTIST
+Ivor Cutler ARTIST
+BBC Radiophonic Workshop ARTIST
+Peter Howell ARTIST
+20th-century classical music GENRE
+Thin Lizzy ARTIST
+Ted Nugent ARTIST
+Arena rock GENRE
+Fred Frith ARTIST
+John Zorn ARTIST
+Contemporary classical music GENRE
+Elliot Goldenthal ARTIST
+Printing cluster: 42------------------XXXXX
+1982 RELEASEDATE
+Dead Kennedys ARTIST
+Surf rock GENRE
+Phil Collins ARTIST
+Thrashcore GENRE
+Anarcho-punk GENRE
+Talking Heads ARTIST
+Art punk GENRE
+The Fixx ARTIST
+The Alan Parsons Project ARTIST
+Dixie Dregs ARTIST
+Ella Fitzgerald ARTIST
+Ella Fitzgerald and The Paul Smith Quartet ARTIST
+Yoko Ono ARTIST
+La Bottine Souriante ARTIST
+Thompson Twins ARTIST
+The Monkees ARTIST
+Waylon Jennings ARTIST
+Outlaw country GENRE
+Defiance ARTIST
+Printing cluster: 43------------------XXXXX
+1990 RELEASEDATE
+Political hip hop GENRE
+Public Enemy ARTIST
+Post-rock GENRE
+Talk Talk ARTIST
+Iron Maiden ARTIST
+Miles Davis ARTIST
+Cool jazz GENRE
+Blue-eyed soul GENRE
+Gwar ARTIST
+George Michael ARTIST
+FantomenK ARTIST
+Hard bop GENRE
+Doldrums ARTIST
+God is an Astronaut ARTIST
+Shabba Ranks ARTIST
+Dancehall GENRE
+Ragga GENRE
+Steve Winwood ARTIST
+The Angels of Light ARTIST
+Printing cluster: 44------------------XXXXX
+1997 RELEASEDATE
+Radiohead ARTIST
+Britpop GENRE
+New Prog GENRE
+Rage Against the Machine ARTIST
+Crackboy ARTIST
+Funk rock GENRE
+Funk metal GENRE
+They Might Be Giants ARTIST
+Sigur Rós ARTIST
+Joe Satriani ARTIST
+The Weakerthans ARTIST
+Baboon ARTIST
+Dredg ARTIST
+The Offspring ARTIST
+Lili Haydn ARTIST
+Ornatos Violeta ARTIST
+Jeff Coffin ARTIST
+Xtatik ARTIST
+Soca music GENRE
+Printing cluster: 46------------------XXXXX
+1986 RELEASEDATE
+A-ha ARTIST
+Synthpop GENRE
+Lester Bowie ARTIST
+SNFU ARTIST
+Urban contemporary GENRE
+Janet Jackson ARTIST
+Minneapolis sound GENRE
+The Toshiko Akiyoshi - Lew Tabackin Big Band ARTIST
+NOFX ARTIST
+Killing Joke ARTIST
+Hüsker Dü ARTIST
+Death In June ARTIST
+Lester Bowie's Brass Fantasy ARTIST
+Paul Kelly &amp; The Coloured Girls ARTIST
+Paul Kelly ARTIST
+Bing Crosby ARTIST
+Count Basie ARTIST
+Sadus ARTIST
+Tony Bennett ARTIST
+Printing cluster: 47------------------XXXXX
+Progressive metal GENRE
+Power metal GENRE
+Black metal GENRE
+Sludge metal GENRE
+Viking metal GENRE
+Groove metal GENRE
+Mastodon ARTIST
+Death ARTIST
+Death metal GENRE
+Technical death metal GENRE
+X Japan ARTIST
+Jag Panzer ARTIST
+King Diamond ARTIST
+Fates Warning ARTIST
+Helloween ARTIST
+Pain of Salvation ARTIST
+Darkthrone ARTIST
+Enslaved ARTIST
+Psychotic Waltz ARTIST
+Grave Digger ARTIST
+Printing cluster: 50------------------XXXXX
+Pop music GENRE
+Disco GENRE
+Dance music GENRE
+New Wave GENRE
+Contemporary R&amp;B GENRE
+World music GENRE
+Kylie Minogue ARTIST
+Adult contemporary music GENRE
+Mariah Carey ARTIST
+Najwa Karam ARTIST
+Arabic music GENRE
+John Farnham ARTIST
+Dalida ARTIST
+Kikki Danielsson ARTIST
+Olivia Newton-John ARTIST
+Elkie Brooks ARTIST
+Bobby Vinton ARTIST
+Gloria Estefan ARTIST
+Rufus Wainwright ARTIST
+Take That ARTIST
+Printing cluster: 56------------------XXXXX
+1992 RELEASEDATE
+Above the Law ARTIST
+The Sugarcubes ARTIST
+Gothic metal GENRE
+Doom metal GENRE
+Danzig ARTIST
+The B-52's ARTIST
+Synth rock GENRE
+Experimental metal GENRE
+The Black Crowes ARTIST
+Type O Negative ARTIST
+Orbital ARTIST
+Acid house GENRE
+Sedes ARTIST
+Paradise Lost ARTIST
+S'Express ARTIST
+Stargazer ARTIST
+Gargoyle ARTIST
+Senmuth ARTIST
+TLC ARTIST
+Printing cluster: 58------------------XXXXX
+Glam rock GENRE
+Alternative metal GENRE
+Glam metal GENRE
+Nu metal GENRE
+Industrial metal GENRE
+Industrial rock GENRE
+Electronic rock GENRE
+Marilyn Manson ARTIST
+Electro-industrial GENRE
+Shock rock GENRE
+Stoner rock GENRE
+Twisted Sister ARTIST
+Fireball Ministry ARTIST
+High On Fire ARTIST
+Mushroomhead ARTIST
+Soul Grind ARTIST
+TNT ARTIST
+Girl ARTIST
+Skyhooks ARTIST
+Clutch ARTIST
+Printing cluster: 64------------------XXXXX
+Garage rock GENRE
+1981 RELEASEDATE
+Garage punk GENRE
+The White Stripes ARTIST
+Punk blues GENRE
+Post-punk revival GENRE
+Alice Cooper ARTIST
+Amy Grant ARTIST
+Royal Philharmonic Orchestra ARTIST
+Louis Clark ARTIST
+Musical theatre GENRE
+Diamond Head ARTIST
+New Wave of British Heavy Metal GENRE
+Jeff Wayne ARTIST
+Debbie Harry ARTIST
+Toyah ARTIST
+Toyah Willcox ARTIST
+The Powerknobs ARTIST
+The Automatic ARTIST
+Laughing Hyenas ARTIST
+Printing cluster: 67------------------XXXXX
+Drone music GENRE
+Michael Jackson ARTIST
+2006 RELEASEDATE
+Godsmack ARTIST
+Tool ARTIST
+Nadja Benaissa ARTIST
+Delta 5 ARTIST
+Minimal music GENRE
+VooDoo Blue ARTIST
+Yoshida Brothers ARTIST
+Mindless Self Indulgence ARTIST
+Stars of the Lid ARTIST
+Boris ARTIST
+Melody Fall ARTIST
+Luv' ARTIST
+Steven Wilson ARTIST
+BWO ARTIST
+Mr. Capone-E ARTIST
+Keak da Sneak ARTIST
+Livestock ARTIST
+Printing cluster: 69------------------XXXXX
+One Minute Silence ARTIST
+2000 RELEASEDATE
+Shellac ARTIST
+Math rock GENRE
+Post-hardcore GENRE
+Dead Prez ARTIST
+The Minibosses ARTIST
+House music GENRE
+Pete Townshend ARTIST
+Lucero ARTIST
+Mariachi GENRE
+Voodoo Glow Skulls ARTIST
+The Who ARTIST
+Anna Vissi ARTIST
+Laïko GENRE
+Katy Garbi ARTIST
+Marianta Pieridi ARTIST
+Antique ARTIST
+Juan Gabriel ARTIST
+Shiner ARTIST
+Printing cluster: 76------------------XXXXX
+Electronic music GENRE
+Electronica GENRE
+Electronic dance music GENRE
+1996 RELEASEDATE
+Boards of Canada ARTIST
+Intelligent dance music GENRE
+Trip hop GENRE
+Downtempo GENRE
+Trance music GENRE
+Jean Michel Jarre ARTIST
+Moby ARTIST
+Tangerine Dream ARTIST
+Space music GENRE
+Klaus Schulze ARTIST
+Alec Empire ARTIST
+Digital hardcore GENRE
+Global Goon ARTIST
+Crazy P ARTIST
+Deep house GENRE
+Arthur Loves Plastic ARTIST
+Printing cluster: 80------------------XXXXX
+1999 RELEASEDATE
+Blur ARTIST
+Café Tacuba ARTIST
+Latin Alternative GENRE
+The Vandals ARTIST
+Sublime ARTIST
+The Simpsons ARTIST
+Comedy GENRE
+Ted Leo and the Pharmacists ARTIST
+Zao ARTIST
+the great Luke Ski ARTIST
+Savage Garden ARTIST
+Bruce McCulloch ARTIST
+Tom Griswold ARTIST
+Bob Kevoian ARTIST
+The Bob &amp; Tom Band ARTIST
+Da Yoopers ARTIST
+Allan Sherman ARTIST
+Comedy music GENRE
+Jackie Martling ARTIST
+Printing cluster: 81------------------XXXXX
+1998 RELEASEDATE
+Garbage ARTIST
+Alternative dance GENRE
+Modern rock GENRE
+Techno GENRE
+Barenaked Ladies ARTIST
+College rock GENRE
+Charlotte Church ARTIST
+Hillsong Music ARTIST
+Hillsong Live ARTIST
+Contemporary Christian music GENRE
+Rob Zombie ARTIST
+Cake ARTIST
+Scooter ARTIST
+Eurodance GENRE
+Hard trance GENRE
+Burning Witch ARTIST
+Takara ARTIST
+Country Teasers ARTIST
+Tim McGraw ARTIST
+Printing cluster: 84------------------XXXXX
+2002 RELEASEDATE
+Classical music GENRE
+Latin American music GENRE
+Rock en Español GENRE
+Ska GENRE
+Stephanie Sun ARTIST
+Mandopop GENRE
+Odd Project ARTIST
+Cumbia GENRE
+America ARTIST
+Maná ARTIST
+Kabah ARTIST
+Buck Enterprises ARTIST
+Christian ska GENRE
+Los Fabulosos Cadillacs ARTIST
+The K.G.B. ARTIST
+Hilary Hahn ARTIST
+Romantic music GENRE
+Grupo Bryndis ARTIST
+Tom Fahy ARTIST
+Printing cluster: 90------------------XXXXX
+1991 RELEASEDATE
+Pearl Jam ARTIST
+Grunge GENRE
+Noise rock GENRE
+The Waterboys ARTIST
+Noise pop GENRE
+Dweezil Zappa ARTIST
+Sonic Youth ARTIST
+No wave GENRE
+Béla Fleck and the Flecktones ARTIST
+Post-bop GENRE
+Psychedelic folk GENRE
+Michael Angelo Batio ARTIST
+Nitro ARTIST
+Shred guitar GENRE
+Gas Huffer ARTIST
+Bolt Thrower ARTIST
+Nirvana ARTIST
+B'z ARTIST
+Spires That in the Sunset Rise ARTIST
+Printing cluster: 99------------------XXXXX
+Gangsta rap GENRE
+West Coast hip hop GENRE
+G-funk GENRE
+Hardcore hip hop GENRE
+Hip hop music GENRE
+Lil Wayne ARTIST
+Southern hip hop GENRE
+2 Live Crew ARTIST
+Miami bass GENRE
+Zion I ARTIST
+E-40 ARTIST
+Hyphy GENRE
+Richie Rich ARTIST
+Luni Coleone ARTIST
+Dru Down ARTIST
+Spice 1 ARTIST
+Compton's Most Wanted ARTIST
+Killa Tay ARTIST
+Celly Cel ARTIST
+E.S.G. ARTIST
+Printing cluster: 104------------------XXXXX
+Horrorcore GENRE
+Midwest hip hop GENRE
+Slayer ARTIST
+Melodic death metal GENRE
+Twista ARTIST
+Film score GENRE
+God Forbid ARTIST
+ABK ARTIST
+2009 RELEASEDATE
+John Powell ARTIST
+X-Raided ARTIST
+Esham ARTIST
+Keith Urban ARTIST
+Natas ARTIST
+Michael Giacchino ARTIST
+Omar Rodríguez-López ARTIST
+Mitsuki Aira ARTIST
+Arch Enemy ARTIST
+Tokio Hotel ARTIST
+Omar Rodriguez Lopez Group ARTIST
+Printing cluster: 108------------------XXXXX
+Peter Brown ARTIST
+1978 RELEASEDATE
+The Outlaws ARTIST
+Patti Smith Group ARTIST
+Yuuko Nitou ARTIST
+Ringo Starr ARTIST
+Pat Metheny Group ARTIST
+Steely Dan ARTIST
+Culture ARTIST
+Al Di Meola ARTIST
+Magazine ARTIST
+Jandek ARTIST
+Outsider music GENRE
+Lounge music GENRE
+Serú Girán ARTIST
+Die Flippers ARTIST
+Schlager music GENRE
+Roy Brown ARTIST
+Poco ARTIST
+Patti Smith ARTIST
+Printing cluster: 109------------------XXXXX
+Rhythm and blues GENRE
+Funk GENRE
+Soul music GENRE
+The Jackson 5 ARTIST
+Bubblegum pop GENRE
+The Supremes ARTIST
+C-pop GENRE
+Jamiroquai ARTIST
+Aretha Franklin ARTIST
+The Pointer Sisters ARTIST
+Acid jazz GENRE
+Earth ARTIST
+ Wind &amp; Fire ARTIST
+David Tao ARTIST
+Bobby Brown ARTIST
+Tower of Power ARTIST
+Boney M. ARTIST
+Euro disco GENRE
+James Brown ARTIST
+Ray Charles ARTIST
+Printing cluster: 115------------------XXXXX
+Weezer ARTIST
+Power pop GENRE
+Pop punk GENRE
+Blink-182 ARTIST
+Skate punk GENRE
+Punk rock GENRE
+Melodic hardcore GENRE
+Hardcore punk GENRE
+Ska punk GENRE
+Metalcore GENRE
+Emo GENRE
+Reel Big Fish ARTIST
+The Exploited ARTIST
+Street punk GENRE
+Oi! GENRE
+face to face ARTIST
+Earth Crisis ARTIST
+The Suicide Machines ARTIST
+New Found Glory ARTIST
+Anti-Nowhere League ARTIST
+Printing cluster: 119------------------XXXXX
+Live ARTIST
+1989 RELEASEDATE
+Golden age hip hop GENRE
+Queen Latifah ARTIST
+Maria McKee ARTIST
+Big Daddy Kane ARTIST
+The D.O.C. ARTIST
+Symphonic black metal GENRE
+Kino ARTIST
+Jimi Hendrix ARTIST
+dc Talk ARTIST
+Christian hip hop GENRE
+Rollins Band ARTIST
+Bunny Wailer ARTIST
+Anthony Braxton ARTIST
+Rotting Christ ARTIST
+Melodic black metal GENRE
+Blue Murder ARTIST
+Bumpy Knuckles ARTIST
+Evildead ARTIST
+Printing cluster: 125------------------XXXXX
+1994 RELEASEDATE
+Alice in Chains ARTIST
+Acoustic music GENRE
+Lone Justice ARTIST
+Folk punk GENRE
+SCHAFT ARTIST
+Savatage ARTIST
+Symphonic metal GENRE
+Common Sense ARTIST
+Susan Ashton ARTIST
+Out of the Grey ARTIST
+Margaret Becker ARTIST
+Christine Dente ARTIST
+Guardian ARTIST
+Matt Nathanson ARTIST
+Bonnie Tyler ARTIST
+Epica ARTIST
+Sick Puppies ARTIST
+Joey Cape ARTIST
+Tony Sly ARTIST
+Printing cluster: 130------------------XXXXX
+Jazz GENRE
+Vocal jazz GENRE
+Sarah Vaughan ARTIST
+Art Blakey ARTIST
+Frank Sinatra ARTIST
+Traditional pop music GENRE
+Freddie Hubbard ARTIST
+Duke Ellington ARTIST
+McCoy Tyner ARTIST
+Paul Motian ARTIST
+Sun Ra ARTIST
+Sun Ra and His Arkestra ARTIST
+Sun Ra and His Astro Infinity Arkestra ARTIST
+Keith Jarrett ARTIST
+The Manhattan Transfer ARTIST
+Rosemary Clooney ARTIST
+Oscar Peterson ARTIST
+Steve Lacy ARTIST
+Lou Donaldson ARTIST
+Mal Waldron ARTIST
+Printing cluster: 132------------------XXXXX
+1983 RELEASEDATE
+Psychedelic pop GENRE
+Neo-psychedelia GENRE
+Gothic rock GENRE
+Post-punk GENRE
+Deathrock GENRE
+Eddie Cochran ARTIST
+Woofers &amp; Tweeters Ensemble ARTIST
+Spoons ARTIST
+Bentobox ARTIST
+Siouxsie &amp; the Banshees ARTIST
+Synthpunk GENRE
+Art music GENRE
+Annabel Lamb ARTIST
+Miquel Brown ARTIST
+Hi-NRG GENRE
+Johnny Thunders ARTIST
+Bauhaus ARTIST
+Jorge Ferreira ARTIST
+Dead or Alive ARTIST
+Printing cluster: 138------------------XXXXX
+1979 RELEASEDATE
+The Cars ARTIST
+Leo Sayer ARTIST
+Sweet ARTIST
+Pat Metheny ARTIST
+Cher ARTIST
+Bill Evans ARTIST
+Bill Evans Trio ARTIST
+Landscape ARTIST
+Harry Connick ARTIST
+ Jr. ARTIST
+Eddie &amp; The Hot Rods ARTIST
+The Pop Group ARTIST
+Alison McCallum ARTIST
+Heatwave ARTIST
+Grover Washington ARTIST
+Smooth jazz GENRE
+Toots Thielemans ARTIST
+Connie Francis ARTIST
+Hank Williams ARTIST
+Printing cluster: 152------------------XXXXX
+The Smashing Pumpkins ARTIST
+1995 RELEASEDATE
+Dave Grohl ARTIST
+Liz Phair ARTIST
+No Doubt ARTIST
+Roxette ARTIST
+Blind Melon ARTIST
+Social Distortion ARTIST
+Bon Jovi ARTIST
+Edwin McCain ARTIST
+Sunny Day Real Estate ARTIST
+Dohzi-T ARTIST
+DJ Bass ARTIST
+Ayumi Hamasaki ARTIST
+Bruce Springsteen &amp; The E Street Band ARTIST
+E Street Band ARTIST
+Bruce Springsteen ARTIST
+J-pop GENRE
+The Blue Hearts ARTIST
+Chantal ARTIST
+Printing cluster: 155------------------XXXXX
+Alternative hip hop GENRE
+Underground hip hop GENRE
+East Coast hip hop GENRE
+Justin Timberlake ARTIST
+Crunk GENRE
+Pop rap GENRE
+Common ARTIST
+Chicago hip hop GENRE
+Latin hip hop GENRE
+Al Kapone ARTIST
+Jedi Mind Tricks ARTIST
+Orishas ARTIST
+Soulja Boy ARTIST
+Snap music GENRE
+Electro hop GENRE
+Family Force 5 ARTIST
+Crunkcore GENRE
+Hip house GENRE
+CRUNK23 ARTIST
+Noah23 ARTIST
+Printing cluster: 161------------------XXXXX
+1980 RELEASEDATE
+Elvis Costello ARTIST
+Elvis Costello &amp; The Attractions ARTIST
+2 Tone GENRE
+Mod revival GENRE
+Japan ARTIST
+New Romanticism GENRE
+Ruts DC ARTIST
+Dexys Midnight Runners ARTIST
+Nuremberg Symphony Orchestra ARTIST
+Dalek I Love You ARTIST
+The Fall ARTIST
+Colin Newman ARTIST
+Alexis Korner and Friends ARTIST
+Alexis Korner ARTIST
+Wipers ARTIST
+Fiddler's Dram ARTIST
+GG Allin ARTIST
+Jackie McLean ARTIST
+Tina Brooks ARTIST
+Printing cluster: 162------------------XXXXX
+Guru ARTIST
+Jazz rap GENRE
+1993 RELEASEDATE
+Glenn Danzig ARTIST
+The Sisters of Mercy ARTIST
+Dark wave GENRE
+Dream Theater ARTIST
+Heather Nova ARTIST
+Susan Werner ARTIST
+Syd Barrett ARTIST
+The New Power Generation ARTIST
+Orchestra GENRE
+Sopor Aeternus &amp; The Ensemble of Shadows ARTIST
+Midnight Syndicate ARTIST
+Edward Douglas ARTIST
+Gavin Goszka ARTIST
+Vond ARTIST
+Mortiis ARTIST
+Halloween music GENRE
+Feeding Fingers ARTIST
+Printing cluster: 165------------------XXXXX
+Ice-T ARTIST
+1987 RELEASEDATE
+Industrial music GENRE
+Post-industrial music GENRE
+Ambient music GENRE
+Dark ambient GENRE
+Dive ARTIST
+Klinik ARTIST
+New-age music GENRE
+Duran Duran ARTIST
+Erasure ARTIST
+Pigface ARTIST
+Robert Rich ARTIST
+Neofolk GENRE
+Pig ARTIST
+Sam Phillips ARTIST
+Nox Arcana ARTIST
+Current 93 ARTIST
+Cusco ARTIST
+The Young Gods ARTIST
+Printing cluster: 191------------------XXXXX
+2003 RELEASEDATE
+Sloan ARTIST
+Cradle of Filth ARTIST
+Extreme metal GENRE
+Cantopop GENRE
+Evanescence ARTIST
+Opeth ARTIST
+John Mayer ARTIST
+Suburban Legends ARTIST
+Third-wave of ska GENRE
+Steve Burns ARTIST
+Efterklang ARTIST
+Joey Yung ARTIST
+Leo Ku Kui Kei ARTIST
+Thulsa Doom ARTIST
+Snoop Dogg ARTIST
+Moi dix Mois ARTIST
+John Ottman ARTIST
+Sammi Cheng ARTIST
+Prudence Liew ARTIST
+Printing cluster: 250------------------XXXXX
+Shania Twain ARTIST
+Country GENRE
+Country pop GENRE
+Gospel music GENRE
+Dixie Chicks ARTIST
+Willie Nelson ARTIST
+Johnny Cash ARTIST
+Kenny Rogers ARTIST
+Nanci Griffith ARTIST
+Cledus T. Judd ARTIST
+Parody music GENRE
+The Rankin Family ARTIST
+Alabama ARTIST
+Barbara Mandrell ARTIST
+Nutshell ARTIST
+Chet Atkins ARTIST
+Buck Owens ARTIST
+Glen Campbell ARTIST
+Stella Parton ARTIST
+Merle Haggard ARTIST
+Printing cluster: 263------------------XXXXX
+Danger Mouse ARTIST
+Mashup GENRE
+2004 RELEASEDATE
+Ensemble La Fenice ARTIST
+Philippe Jaroussky ARTIST
+Anastacia ARTIST
+Soul rock GENRE
+The Tragically Hip ARTIST
+Fear Factory ARTIST
+Madvillain ARTIST
+Flogging Molly ARTIST
+Wheatus ARTIST
+Vanilla Ninja ARTIST
+Sunn ARTIST
+Barry Manilow ARTIST
+Easy listening GENRE
+Leningrad ARTIST
+Instrumental GENRE
+Yanni ARTIST
+MC Breed ARTIST
+Printing cluster: 285------------------XXXXX
+Crossover GENRE
+Christmas music GENRE
+Bond ARTIST
+2008 RELEASEDATE
+Blue Sky Black Death ARTIST
+Operatic pop GENRE
+Miley Cyrus ARTIST
+Modwheelmood ARTIST
+Brainpower ARTIST
+Katherine Jenkins ARTIST
+Human Nature ARTIST
+D'Angelo ARTIST
+The Diplomats ARTIST
+Jim Jones ARTIST
+This Town Needs Guns ARTIST
+Jean Grae ARTIST
+Juelz Santana ARTIST
+Skull Gang ARTIST
+Mistah F.A.B. ARTIST
+Susan Boyle ARTIST
+Printing cluster: 289------------------XXXXX
+1985 RELEASEDATE
+Eddie Jobson ARTIST
+Neo-progressive rock GENRE
+Film soundtrack GENRE
+Face ARTIST
+Mr. Mister ARTIST
+Die Krupps ARTIST
+Electronic body music GENRE
+The Oak Ridge Boys ARTIST
+Rites of Spring ARTIST
+Martin Simpson ARTIST
+Alan Silvestri ARTIST
+IQ ARTIST
+Wang Chung ARTIST
+2nd Chapter of Acts ARTIST
+Ian McLagan ARTIST
+John Denver ARTIST
+Joachim Witt ARTIST
+Neue Deutsche Welle GENRE
+Faderhead ARTIST
+Printing cluster: 385------------------XXXXX
+U2 ARTIST
+Jesu ARTIST
+Post-metal GENRE
+2005 RELEASEDATE
+Salome ARTIST
+Otep ARTIST
+Ween ARTIST
+Motion City Soundtrack ARTIST
+Trapt ARTIST
+Tom Jones ARTIST
+Neal Morse ARTIST
+Dale North ARTIST
+Jully Black ARTIST
+Uniting Nations ARTIST
+Ol' Dirty Bastard ARTIST
+William C. Woxlin ARTIST
+Screamo GENRE
+Scary Kids Scaring Kids ARTIST
+Gary Schutt ARTIST
+Callisto ARTIST
+Printing cluster: 393------------------XXXXX
+Kanye West ARTIST
+The Fray ARTIST
+Isaac Slade ARTIST
+Blackmore's Night ARTIST
+Neo-Medieval music GENRE
+Celtic music GENRE
+Shining ARTIST
+Alan Jackson ARTIST
+Christian country music GENRE
+The Kovenant ARTIST
+2012 RELEASEDATE
+Big Wreck ARTIST
+Nu jazz GENRE
+Richard Marx ARTIST
+Matt Scannell ARTIST
+Donnie Lewis ARTIST
+V.I.C. ARTIST
+Jeff Ament ARTIST
+Three 6 Mafia ARTIST
+Dispatch ARTIST
+Printing cluster: 524------------------XXXXX
+Bluegrass GENRE
+Progressive bluegrass GENRE
+New Grass Revival ARTIST
+Gillian Welch ARTIST
+The Tony Rice Unit ARTIST
+Ryan Shupe &amp; The Rubberband ARTIST
+Norman Blake ARTIST
+Tut Taylor ARTIST
+Marty Stuart ARTIST
+The Seldom Scene ARTIST
+Northern Lights ARTIST
+Hot Rize ARTIST
+The Country Gentlemen ARTIST
+Charlie Daniels ARTIST
+The Charlie Daniels Band ARTIST
+Carolina Chocolate Drops ARTIST
+Nitty Gritty Dirt Band ARTIST
+Wild Jimbos ARTIST
+Daniel Kobialka ARTIST
+Sam Bush ARTIST
+Printing cluster: 543------------------XXXXX
+Horse the Band ARTIST
+Nintendocore GENRE
+Jennifer Lopez ARTIST
+2007 RELEASEDATE
+Throbbing Gristle ARTIST
+Ballad GENRE
+The Pietasters ARTIST
+Asian Dub Foundation ARTIST
+Bhangra GENRE
+Oldschool jungle GENRE
+J Dilla ARTIST
+Noise music GENRE
+Rap music GENRE
+Sway ARTIST
+Nine Inch Nails ARTIST
+Birdman ARTIST
+Joe Budden ARTIST
+Sakis Rouvas ARTIST
+Merzbow ARTIST
+The Kingston Trio ARTIST
+Printing cluster: 547------------------XXXXX
+L'Arc-en-Ciel ARTIST
+Tindersticks ARTIST
+Brian Eno ARTIST
+Daniel Dumile ARTIST
+Instrumental hip hop GENRE
+Tupac Shakur ARTIST
+Mobb Music GENRE
+Conscious hip hop GENRE
+Dio ARTIST
+Pete Yorn ARTIST
+mc chris ARTIST
+Nerdcore GENRE
+David Gray ARTIST
+Kottonmouth Kings ARTIST
+Fionn Regan ARTIST
+Kiuas ARTIST
+Electric Six ARTIST
+2010 RELEASEDATE
+David Archuleta ARTIST
+Glee Cast ARTIST
+Printing cluster: 612------------------XXXXX
+Stan Kenton ARTIST
+1959 RELEASEDATE
+The Chipmunks ARTIST
+Ross Bagdasarian ARTIST
+ Sr. ARTIST
+Children's music GENRE
+1961 RELEASEDATE
+Lou Singer ARTIST
+Dottie Evans ARTIST
+Tom Glazer ARTIST
+Carmen McRae ARTIST
+Babatunde Olatunji ARTIST
+Afrobeat GENRE
+Highlife GENRE
+Dinah Shore ARTIST
+Betty Johnson ARTIST
+Wynton Kelly ARTIST
+Jimmy Forrest ARTIST
+Charlie Barnet ARTIST
+Billy May ARTIST
+Printing cluster: 647------------------XXXXX
+2011 RELEASEDATE
+Britney Spears ARTIST
+I Am the Avalanche ARTIST
+Incubus ARTIST
+Judas Priest ARTIST
+Iced Earth ARTIST
+Robert Pollard ARTIST
+Will Oldham ARTIST
+The Sundowners ARTIST
+Martina McBride ARTIST
+Don Moen ARTIST
+Alvin Slaughter ARTIST
+Benny Hinn ARTIST
+Joe ARTIST
+CunninLynguists ARTIST
+Michael Gungor ARTIST
+George Benson ARTIST
+Deep ARTIST
+Sole ARTIST
+Gungor ARTIST
+Printing cluster: 777------------------XXXXX
+1968 RELEASEDATE
+Nancy Priddy ARTIST
+Dr. John ARTIST
+New Orleans rhythm and blues GENRE
+Richard Harris ARTIST
+Dave Burrell ARTIST
+Tom Rush ARTIST
+Ramsey Lewis ARTIST
+Dottie West ARTIST
+Nashville sound GENRE
+Caravan ARTIST
+Canterbury scene GENRE
+The Vogues ARTIST
+The Easybeats ARTIST
+Ravi Shankar ARTIST
+Hindustani classical music GENRE
+Jazz Composer's Orchestra ARTIST
+Neil Diamond ARTIST
+Keith Jarrett Trio ARTIST
+Françoise Hardy ARTIST
+Printing cluster: 904------------------XXXXX
+Belinda ARTIST
+Ocean Colour Scene ARTIST
+M-Flo ARTIST
+Johnny Hallyday ARTIST
+Roger Meddows Taylor ARTIST
+2013 RELEASEDATE
+Surf music GENRE
+Airbourne ARTIST
+MGMT ARTIST
+Girls' Generation ARTIST
+Suede ARTIST
+Wavves ARTIST
+Casimir ARTIST
+Lydia ARTIST
+JME ARTIST
+Nothing's Carved in Stone ARTIST
+Mark Kozelek ARTIST
+Youngblood Hawke ARTIST
+Beware of Darkness ARTIST
+Portal ARTIST
+Number of clusters: 3577
+Largest cluster: 20 vertices
+Number of artist vertices: 4735
+Number of genre vertices: 596
