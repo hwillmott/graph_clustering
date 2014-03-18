@@ -7,93 +7,49 @@ import java.util.regex.Pattern;
 
 public class GraphHandler 
 {
+	/*************************************************************************
+	 * main
+	 * 
+	 * @param args
+	 * @returns void
+	 * 
+	 * How to use:
+	 * This method must be altered for w
+	 * 
+	 *************************************************************************/
 	public static void main(String[] args)
 	{
 		try {
 			Graph G;
 			PrintStream p;
-			boolean[] propertiesA = {true, true, false, false};
-			boolean[] propertiesB = {true, true, true, false};
-			boolean[] propertiesC = {true, true, true, true};
+			boolean[] propertiesA = {true, true, false, false}; // artist and genre only
+			boolean[] propertiesB = {true, true, true, false}; // artist, genre, release year
+			boolean[] propertiesC = {true, true, true, true}; // artist, genre, release year, awards
 			
-			p = new PrintStream("ideal_20.txt");
+			// example run
+			p = new PrintStream("ideal_20.txt"); // the output file you wish to use
 			System.setOut(p);
 			G = new Graph();
-			parseGraphInput("./richdata.txt", G, propertiesC);
-			G.idealCluster(6000,20);
-			
-			p = new PrintStream("ideal_30.txt");
-			System.setOut(p);
-			G = new Graph();
-			parseGraphInput("./richdata.txt", G, propertiesC);
-			G.idealCluster(6000,30);
-			
-			p = new PrintStream("ideal_50.txt");
-			System.setOut(p);
-			G = new Graph();
-			parseGraphInput("./richdata.txt", G, propertiesC);
-			G.idealCluster(6000,50);
-			
-			p = new PrintStream("ideal_75.txt");
-			System.setOut(p);
-			G = new Graph();
-			parseGraphInput("./richdata.txt", G, propertiesC);
-			G.idealCluster(6000,75);
-			
-			p = new PrintStream("ideal_100.txt");
-			System.setOut(p);
-			G = new Graph();
-			parseGraphInput("./richdata.txt", G, propertiesC);
-			G.idealCluster(6000,100);
-			/* max cluster
-			p = new PrintStream("max_B.txt");
-			System.setOut(p);
-			G = new Graph();
-			parseGraphInput("./richdata.txt", G, propertiesB);
-			G.maxCluster(6000);
-
-			p = new PrintStream("max_C.txt");
-			System.setOut(p);
-			G = new Graph();
-			parseGraphInput("./richdata.txt", G, propertiesC);
-			G.maxCluster(6000);
-			// min cluster
-			p = new PrintStream("min_A.txt");
-			System.setOut(p);
-			G = new Graph();
-			parseGraphInput("./richdata.txt", G, propertiesA);
-			G.minCluster(6000);
-
-			p = new PrintStream("min_B.txt");
-			System.setOut(p);
-			G = new Graph();
-			parseGraphInput("./richdata.txt", G, propertiesB);
-			G.minCluster(6000);
-
-			p = new PrintStream("min_C.txt");
-			System.setOut(p);
-			G = new Graph();
-			parseGraphInput("./richdata.txt", G, propertiesC);
-			G.minCluster(6000); */
-			
-			/* test data 
-			p = new PrintStream("min_test.txt");
-			System.setOut(p);
-			G = new Graph();
-			parseGraphInput("./testdata.txt", G, propertiesC);
-			G.minCluster(100); 
-			
-			p = new PrintStream("max_test.txt");
-			System.setOut(p);
-			G = new Graph();
-			parseGraphInput("./testdata.txt", G, propertiesC);
-			G.maxCluster(100); */
+			parseGraphInput("./richdata.txt", G, propertiesC); // choose which properties to use
+			G.idealCluster(6000,20); //choose which clustering algorithm to use
 			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
 	}
 
+	/*************************************************************************
+	 * parseGraphInput
+	 * 
+	 * @param filename, G, propertiesToUse
+	 * @returns void
+	 * 
+	 * Parses the input file given by filename twice - the first time to 
+	 * generate all the vertices, then to generate the edges between them.
+	 * propertiesToUse specifies which of the properties in the file are
+	 * to be used in generating vertices and edges
+	 * 
+	 *************************************************************************/
 	public static void parseGraphInput(String filename, Graph G, boolean[] propertiesToUse)
 	{
 		generateVertices(filename, G, propertiesToUse);
@@ -101,6 +57,16 @@ public class GraphHandler
 		System.out.println("vertices: " + G.n + " edges: " + G.m);
 	}
 
+	/*************************************************************************
+	 * generateVertices
+	 * 
+	 * @param filename, G, propertiesToUse
+	 * @returns void
+	 * 
+	 * Iterates through every line in the file, creating vertices out of the
+	 * specified properties and checks for duplicates
+	 * 
+	 *************************************************************************/
 	public static void generateVertices(String filename, Graph G, boolean[] propertiesToUse)
 	{
 		FileReader file = null;		  
@@ -144,6 +110,17 @@ public class GraphHandler
 		}
 	}
 	
+	/*************************************************************************
+	 * addVertices
+	 * 
+	 * @param names, t, vertices, hash, G
+	 * @returns void
+	 * 
+	 * Creates vertices of type t from the array of names given, checking
+	 * for duplicates as it goes. Also adds to graph's count of artists and
+	 * genres
+	 * 
+	 *************************************************************************/
 	public static void addVertices(String[] names, VertexType t, ArrayList<Vertex> vertices, Hashtable<String, Integer> hash, Graph G)
 	{
 		for(int i = 0; i < names.length; i++)
@@ -159,6 +136,17 @@ public class GraphHandler
 		}
 	}
 
+	/*************************************************************************
+	 * computeEdges
+	 * 
+	 * @param filename, G, propertiesToUse
+	 * @returns void
+	 * 
+	 * Iterates through every line in the file, creating edges between existing
+	 * vertices according to the properties specified. Edges are added together
+	 * if two vertices are found to be connected in the results more than once
+	 * 
+	 *************************************************************************/
 	public static void computeEdges(String filename, Graph G, boolean[] propertiesToUse)
 	{
 		G.VPM = new int[G.vertices.length][G.vertices.length];
@@ -203,6 +191,15 @@ public class GraphHandler
 		}
 	}
 	
+	/*************************************************************************
+	 * addEdges
+	 * 
+	 * @param a, b, G
+	 * @returns void
+	 * 
+	 * Adds to the vertex proximity matrix 1 edge where vertices a and b are found 
+	 * 
+	 *************************************************************************/
 	public static void addEdges(String[] a, String[] b, Graph G)
 	{
 		for(int i = 0; i < a.length; i++)
@@ -220,6 +217,17 @@ public class GraphHandler
 		}
 	}
 	
+	/*************************************************************************
+	 * getYearsFromStrings
+	 * 
+	 * @param releasedates
+	 * @returns String[]
+	 * 
+	 * Uses regexes to get a year (i.e. 4 digits) from a date string of any 
+	 * format in the date strings given and returns an array of the years
+	 * as strings
+	 * 
+	 *************************************************************************/
 	public static String[] getYearsFromStrings(String[] releasedates)
 	{
 		String s = "(\\d{4})";
