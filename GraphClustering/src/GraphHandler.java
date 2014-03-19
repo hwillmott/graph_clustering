@@ -14,7 +14,18 @@ public class GraphHandler
 	 * @returns void
 	 * 
 	 * How to use:
-	 * This method must be altered for w
+	 * This method must be altered for the purposes of your experiment.
+	 * PropertiesA, PropertiesB, and PropertiesC specify which of the properties
+	 * from the text file you wish to use.
+	 * p is the printstream to the text file you wish to print to.
+	 * You should use richdata.txt, which has all the properties available.
+	 * The available clustering algorithms on G are:
+	 * idealCluster(<number of iterations>,<max size of cluster>)
+	 * maxCluster(<number of iterations>)
+	 * minCluster(<number of iterations>)
+	 * Note: depending on what you want the program to print to the file (the
+	 * contents of the clusters or the statistics of the clusters, you will 
+	 * have to modify printClusters() in Graph.java
 	 * 
 	 *************************************************************************/
 	public static void main(String[] args)
